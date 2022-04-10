@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Counter from "./component/Counter";
 
 // 변수 선언
 const areYouCool: boolean = true;
@@ -48,6 +49,7 @@ function App() {
           {typescript}, {pibonacci[0]}
         </a>
       </header>
+      <Counter />
     </div>
   );
 }
